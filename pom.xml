@@ -8,6 +8,40 @@
     <artifactId>VP</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/cn.gjsm/openai -->
+        <dependency>
+            <groupId>cn.gjsm</groupId>
+            <artifactId>openai</artifactId>
+            <version>0.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aallam.openai/openai-client -->
+        <dependency>
+            <groupId>com.aallam.openai</groupId>
+            <artifactId>openai-client</artifactId>
+            <version>3.7.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.springboot.ai/spring-ai-openai -->
+        <dependency>
+            <groupId>io.springboot.ai</groupId>
+            <artifactId>spring-ai-openai</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/bg.codexio.ai/openai-api-sdk -->
+        <dependency>
+            <groupId>bg.codexio.ai</groupId>
+            <artifactId>openai-api-sdk</artifactId>
+            <version>0.9.0.BETA</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cequence/openai-scala-client -->
+        <dependency>
+            <groupId>io.cequence</groupId>
+            <artifactId>openai-scala-client_3</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+    </dependencies>
+
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
         <maven.compiler.target>20</maven.compiler.target>
